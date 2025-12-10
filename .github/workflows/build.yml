@@ -72,6 +72,7 @@ jobs:
       - name: Execute Gradle build
         run: |
           cd android
+          chmod +x ./gradlew
           ./gradlew build
       - name: Build Android JS Bundle
         run: |
