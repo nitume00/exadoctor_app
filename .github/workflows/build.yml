@@ -1,4 +1,4 @@
-name: Build and deploy for production
+name: Build and deploy for production release
 on:
   push:
     branches: [ "master" ]
